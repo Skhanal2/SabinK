@@ -1,5 +1,5 @@
 ---
-title: Personal website
+title: Hello my name is Sabin Khanal
 author: Sabin Khanal
 email_address: skhanal2@tamu.edu
 output: html_document
@@ -21,4 +21,6 @@ body {
 
 ![](pdf/CV.pdf)
 
-![](picture/DP.jpg)
+![](picture/DP.jpg){width=50% height=50%}
+
+

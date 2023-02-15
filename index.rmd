@@ -1,9 +1,0 @@
----
-title: Personal website
-author: Sabin Khanal
-email_address: skhanal2@tamu.edu
-output: html_document
-github_repo: https://skhanal2.github.io/sabinkhanal
----
-
-![](pdf/CV.pdf)

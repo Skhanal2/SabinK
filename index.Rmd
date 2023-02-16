@@ -5,6 +5,7 @@ email_address: skhanal2@tamu.edu
 output: html_document
 github_repo: https://skhanal2.github.io/sabinkhanal
 ---
+cv <- './pdf/CV.pdf'
 
 ```{css echo = FALSE}
 .author, .title {
@@ -19,7 +20,7 @@ body {
 ```
 
 
-![CV](./pdf/CV.pdf)
+You can view the pdf [here](./pdf 'r CV.pdf')
 
 ![](picture/DP.jpg){width=50% height=50%}
 

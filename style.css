@@ -77,12 +77,12 @@ nav{
     font-size: 20px;
     color: #fff;
     text-align: center;
-    transform: translate(-10%, 250%);
+    transform: translate(-10%, 1200%);
 }
 .socials{
     position: relative;
-    bottom: 150px;
-    left: 1700px;
+    bottom: 550px;
+    left: 1300px;
 }
 .publication h1{
     margin-top: 100px;

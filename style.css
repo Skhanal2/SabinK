@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 100vh;
+    width: 100;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 800px;
+    height: auto;
+    border-style: none;
+    border-radius: 25%;
+    position: relative;
+    bottom: 40px;
+}
+.about-col h1{
+    font-size: 62px;
+    top: 50%;
+    left: 50;
+    text-align: center;
+    color: #fff;
+    transform: translate(-10%, 250%);
+
+}
+.about-col p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    transform: translate(-10%, 250%);
+}
+.socials{
+    position: relative;
+    bottom: 150px;
+    left: 1700px;
+}
+.publication h1{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.publication{
+    min-height: 100vh;
+    width: 100;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.pub{
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/rice_field.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.pub-text{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #fff;
+}
